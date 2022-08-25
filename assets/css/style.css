@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4fbfb;
+}
+
+nav{
+    border-bottom: 1px solid #e9e5e5;
+    font-size: 1.2em;
+}
+
+.nav-link:hover{
+    color: orangered;
+}
+
+h1{
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 60px;
+}
+
+p{
+    font-weight: 300;
+}
+
+.card{
+    background: linear-gradient(#6cd4da, #d8ffae);
+}
+
+.contentPhoto{
+    margin: 0 auto;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+#btnChien{
+    margin: 0 auto;
+    height: 50px;
+}
+
+#imgAleatoire{
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    /* background-color: blue; */
+}
+
+#imgAleatoire>img{
+    width: 300px;
+}
+
+footer{
+    border-top: 1px double #e9e5e5;
+}
+
+footer>.container{
+    font-size: 15px;
+}
+
