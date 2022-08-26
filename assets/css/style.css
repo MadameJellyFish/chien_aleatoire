@@ -67,3 +67,7 @@ footer>.container{
     font-size: 15px;
 }
 
+.btn:hover{
+    transform: scale(1.1);
+}
+
