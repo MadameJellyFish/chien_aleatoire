@@ -27,8 +27,14 @@ p{
     font-weight: 300;
 }
 
-.card{
+.cardbg{
     background: linear-gradient(#6cd4da, #d8ffae);
+}
+
+.cardbg>img{
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
 }
 
 .contentPhoto{
@@ -44,16 +50,13 @@ p{
     height: 50px;
 }
 
-#imgAleatoire{
-    text-align: center;
-    height: 500px;
-    width: 500px;
-    margin: 0 auto;
-    /* background-color: blue; */
-}
-
 #imgAleatoire>img{
-    width: 300px;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 5%;
 }
 
 footer{
